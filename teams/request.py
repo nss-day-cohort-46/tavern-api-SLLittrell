@@ -1,6 +1,6 @@
-from models.player import Player
-from models.team_score import TeamScore
-from models.team import Team
+from models import Player
+from models import TeamScore
+from models import Team
 import sqlite3
 import json
 
