@@ -1,1 +1,1 @@
-from request import get_teams
+from .request import get_teams

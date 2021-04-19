@@ -1,6 +1,6 @@
 import json
 from http.server import BaseHTTPRequestHandler, HTTPServer
-from teams.request import get_teams
+from teams import get_teams
 
 
 class HandleRequests(BaseHTTPRequestHandler):
